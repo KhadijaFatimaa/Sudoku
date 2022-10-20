@@ -227,20 +227,23 @@ def transforma_coord(selecc):
             juego_grid[coord_fila][coord_col]=jugada
             tablero_bonito(matriz)
         else:
-            quesque_termina_juego(coord_posible)
+            termina_juego(coord_posible)
     else:
         print('Únicamente deben ingresarse valores numéricos separados por una coma (a,b)')
         tablero_bonito(matriz)
-def quesque_termina_juego(coord_posible):
+def termina_juego(coord_posible):
     global contador
     contador+=1
     if contador==3:
         print('-----------------------------------------------')
         print('¡¡¡Has tenido 3 errores!!!')
         print('')
-        #print('-Si fuese un juego serio (guiño guiño), el juego terminaría aquí.-')
-        print('------¡SIGUE PRACTICANDO!------')
+        print('----------------------¡SIGUE PRACTICANDO!--------------------')
+        print('----------------¡GRACIAS POR USAR MI PROGRAMA!---------------')
         print('')
+        print("--------------Programa hecho por Khadija Fatima--------------")
+        print('')
+        print("-------------------------------------------------------------")
         exit()
     return contador
 def main():
