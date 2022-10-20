@@ -1,6 +1,4 @@
-# Sudoku
-##Proyecto Final de la materia Pensamiento Computacional para Ingeniería
-###Primer Semestre de la Ingenería en Ciencia de Datos y Matemáticas en el Instituto Tecnológico de Estudios Superiores de Monterrey.
+# Sudoku ##Proyecto Final de la materia Pensamiento Computacional para Ingeniería ###Primer Semestre de la Ingenería en Ciencia de Datos y Matemáticas en el Instituto Tecnológico de Estudios Superiores de Monterrey.
 
 El clásico juego de sudoku en una versión simple de Python. Este código tiene 7 funciones además del main(). Para representar casillas vacías se utilizaron '0' (ceros).
 Se empieza por definir una matriz y lista vacía que serán utilizadas más adelante para crear el tablero del juego. En esta primera versión del juego se trabaja con tableros predeterminados, dos por cada nivel: fácil, medio y difícil. Al mismo tiempo, se vinculan los tableros de juego con sus soluciones en la función de vinculo_randomsol(juego_grid). Posteriormente se imprime la matriz de juego en forma de un tablero casi convencional con la función tablero_bonito(matriz).
